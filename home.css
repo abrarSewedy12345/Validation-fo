@@ -1,0 +1,210 @@
+body
+{
+    position: absolute;
+    padding: 0%;
+    margin: 0%;
+}
+nav
+{
+    position: absolute;
+    display: flex;
+    background-color: cadetblue;
+    width: 1536px;
+}
+.navbottom a
+{
+    position: relative;
+    text-decoration: none;
+    margin-left: 130px;
+    top: 35px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+/* 
+.logo
+{
+    margin-left: 60px;
+}
+.pragraph p
+{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 442px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    width: 30px;
+}
+
+.imgg img
+{
+    width: 250px;
+    height: 250px;
+    margin-left: 20px;
+    margin-top: 80px;
+
+}
+.divItem
+{
+    position: relative;
+    width: 1550px;
+    height: 700px;
+    top: 90px;
+    background-color: brown;
+}
+.buybutt
+{
+    position: absolute;
+    margin-left: 445px;
+    width: 85px; 
+    margin-top: 380px;
+}
+.slider
+{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    transition: 1.5s;
+    top: 85px;
+}
+div:target
+{
+    display: block;
+}
+div:not(:target)
+{
+    display: flex;
+}
+
+.container
+{
+    overflow: hidden;
+    margin-top: 85; 
+    display: flex;
+
+}
+.nvvref button
+{
+    background-color: transparent;
+}
+.divvitem1
+{
+    position: relative;
+    display: flex;
+    left: 170px;
+    width: 500px;
+    background-color: chartreuse;
+}
+.divvitem2
+{
+    position: relative;
+    margin-left: 340px;
+    width: 500px;
+background-color: aquamarine;
+}
+#divv2
+{
+    margin-left: 1000px;
+}
+.divvitem3
+{
+    position: relative;
+    display: flex;
+    left: 170px;
+    width: 500px;
+    background-color: chartreuse;
+}
+.divvitem4
+{
+    position: relative;
+    margin-left: 340px;
+    width: 500px;
+background-color: aquamarine;
+}
+.divvitem5
+{
+    position: relative;
+    display: flex;
+    left: 170px;
+    width: 500px;
+    background-color: chartreuse;
+}
+.divvitem6
+{
+    position: relative;
+    margin-left: 340px;
+    width: 500px;
+background-color: aquamarine;
+}
+.divvitem7
+{
+    position: relative;
+    display: flex;
+    left: 170px;
+    width: 500px;
+    background-color: chartreuse;
+}
+.divvitem8
+{
+    position: relative;
+    margin-left: 340px;
+    width: 500px;
+background-color: aquamarine;
+} */
+body{
+    height: 700px;
+}
+.container
+{
+    position: absolute;
+    background-color: blueviolet;
+    width: 1280px;
+    height: 545px;
+    margin-top: 90px;
+    border-radius: 40px;
+    left: 120px;
+    display: flex;
+    overflow: hidden;
+}
+.img1 img
+{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 15px;
+    left: 1225px;
+}
+.imgg img
+{
+    width: 250px;
+    height: 250px;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+.divItem
+{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 80px;
+    
+}
+.footer
+{
+    background-color: gray;
+    font-size: 40px;
+    margin-top: 1400px; 
+    width: 1530px;
+    height: 500px;
+    display: flex; 
+    justify-content: space-around;
+    border: 3px solid black;
+
+    /* clip-path: polygon(0% 0% , 0% 100% ,100% 100% , 0% 85%); */
+}
+.footer a{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    padding-top: 120px;
+}

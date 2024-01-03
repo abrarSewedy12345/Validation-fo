@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Sign.css">
+</head>
+<body>
+    <div class="container">
+        <div class="loginform" id="Loginform">
+
+           <br> <label for="Loginlable" class="Loginlable">Log In</label><br> <br> <br>
+    
+            <label for="UserName">User Name</label><br> 
+            <input type="text" name="UserName" id="UserName"  required placeholder="User Name" class="inputs"><br> <br> <br>
+    
+            <label for="Password">Password</label><br> 
+            <input type="password" name="Password" id="Password"  required class="inputs"><br> <br> <br>
+    
+           <a href="../Abrar_w3/refeiwform.html"><input type="button" name="loginbutt" id="loginbutt" value="Log In" class="inputs" onclick="checkuser()"><br> <br></a>  
+            <a href="#forgetpasswordform"><input type="button" name="forgetbutt" id="forgetbutt" value="Forget Password" class="inputs"><br> <br></a>   
+           <a href="#singUpform"><input type="button" name="Signbutt" id="Signbutt" value="Sign Up" class="inputs"><br> <br> </a> 
+    
+        </div>
+    
+        <div class="singUpform" id="singUpform">
+    
+            <br>   <label for="SignUplable" class="SignUplable">Sing Up</label><br><br><br>
+    
+            <label for="UserrName">User Name</label><br> 
+            <input type="text" name="UserrName" id="UserrName"  required placeholder="User Name" class="inputs"><br> <br> 
+    
+            <label for="Password">Password</label><br> 
+            <input type="password" name="Pasword" id="Pasword"  required class="inputs" ><br> <br> 
+    
+            <label for="Age">Age</label><br> 
+            <input type="number" name="Age" id="Age" placeholder="Age" required class="inputs" min="18" max="60"><br> <br> 
+    
+            <input type="radio" name="Gender" id="Gender"  required class="inputs">
+            <label for="Gnder">Male</label>
+    
+            <input type="radio" name="Gender" id="Gender"  required class="inputs">
+            <label for="Gender">Female</label><br> <br> 
+
+            <label for="Phone">Phone</label><br> 
+            <input type="tel" name="Phone" id="Phone"  required placeholder="Phoe Number" class="inputs" pattern="[0-9]{11}"><br> <br> <br> 
+    
+         <input type="button" name="Signbutt" id="Signbut" value="Sign Up" class="inputs" onclick="Add()"><br> <br> 
+    
+        </div>
+
+        <div class="forgetpasswordform" id="forgetpasswordform">
+
+            <br> <label for="ForgetPasswordlabl" class="Forget Password">Forget Password</label><br> <br> <br>
+    
+            <label for="UsrName">User Name</label><br> 
+            <input type="text" name="UsrName" id="UsrName"  required placeholder="User Name" class="inputs"><br> <br> 
+    
+            <label for="newPassword"> New Password</label><br> 
+            <input type="password" name="newPassword" id="newPassword"  required class="inputs"><br> <br> <br>
+    
+            <input type="button" name="Updatebutt" id="Updatebutt" value="Update" class="inputs" onclick="reseat_pass ()"><br> <br> 
+            
+        </div>
+    </div>
+    <script src="Sign.js"></script>
+</body>
+</html>

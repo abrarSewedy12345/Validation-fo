@@ -1,0 +1,123 @@
+body
+{
+    position: absolute;
+    padding: 0%;
+    margin: 0%;
+    height: 600px;
+}
+nav
+{
+    position: absolute;
+    display: flex;
+    background-color: cadetblue;
+    width: 1536px;
+}
+.navbottom a
+{
+    position: relative;
+    text-decoration: none;
+    margin-left: 130px;
+    top: 35px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.imgsdiv img
+{
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+}
+.container
+{
+    position: absolute;
+    height: 600px;
+    width: 1536px;
+    margin-top: 67px;
+    margin-left: 0px;
+    background-color: burlywood;
+    padding: 0%;
+    display: flex;
+    transition: 0.5s;
+}
+.slider
+{
+    width: 6,144px; 
+    background-color: blue;
+    z-index: 2;
+    display: flex;
+    overflow: hidden;
+}
+
+.divitem1
+{
+    position: absolute;
+    height: 580px;
+    width: 1536px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+.pragra
+{
+    top: 3px;
+    position: absolute;
+    left: 340px;
+    width: 225px;
+}
+.pragrprice
+{
+    margin-left: 340px;
+    position: absolute;
+}
+
+.Checkout
+{
+    width: 440px;
+    margin-left: 1000px;
+    margin-top: -455px;
+    border: 2px solid black;
+    height: 300px;
+    text-align: center;
+
+}
+.check button
+{
+    width: 130px;
+}
+.subtotalprice
+{
+    margin-top: -84px;
+    margin-left: 140px;
+}
+
+.totalprice
+{
+    margin-top: -30px;
+    margin-left: 140px;
+    font-weight: bolder;
+}
+.total
+{
+    font-weight: bolder;
+}
+
+.imgg2
+{
+    margin-left: 75px;
+    margin-top: 120p
+
+}
+#pragrprice1
+{
+    top: 105px;
+}
+#pragrprice2
+{
+    top: 340px;
+}
+#imgg1
+{
+    margin-left: 75px;
+    margin-top: 90p
+}

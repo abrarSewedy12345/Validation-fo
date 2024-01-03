@@ -1,0 +1,26 @@
+.loginform
+{
+    background-color: cornflowerblue;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    border-radius: 30px;
+}
+.singUpform
+{
+    background-color: cornflowerblue;
+    width: 350px;
+    height: 450px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 500px;
+}
+.forgetpasswordform
+{
+    background-color: cornflowerblue;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 700px;
+}
