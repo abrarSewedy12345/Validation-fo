@@ -39,14 +39,15 @@ nav
     padding: 0%;
     display: flex;
     transition: 0.5s;
+    overflow: hidden;
+
 }
 .slider
 {
-    width: 6,144px; 
+    width: 6,300px; 
     background-color: blue;
     z-index: 2;
     display: flex;
-    overflow: hidden;
 }
 
 .divitem1
